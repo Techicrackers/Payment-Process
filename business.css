@@ -1,0 +1,596 @@
+body
+{
+    background-color:rgb(194, 191, 191);
+}
+.left 
+{
+background-color: white;
+height: 97%;
+width: 28%;
+left: 40px;
+top: 10px;
+border-radius: 12px;
+position: fixed;
+}
+.right 
+{
+background-color: white;
+height: 60%;
+width: 30%;
+right:10px;
+left: 487px;
+border-radius: 12px;
+position: fixed;
+}
+.bottom-left
+{
+    background-color: rgb(10, 9, 9);
+    height: 36%;
+    width: 20%;
+    right:10px;
+    left: 487px;
+    top: 390px;
+    border-radius: 12px;
+    position: fixed;
+}
+.bottom-right{
+    background-color: white;
+    height: 36%;
+    width: 20%;
+    right:10px;
+    left: 800px;
+    top: 390px;
+    border-radius: 12px;
+    position: fixed;   
+}
+.topleft {
+    position: fixed;
+    width: 5%;
+    height: 10%;
+    top: 50px;
+    left: 70px;
+  }
+  .top-left {
+    position: fixed;
+    width: 14%;
+    height: 10%;
+    top: 55px;
+    left: 260px;
+  }
+.icons
+{
+    width: 100%;
+}
+.first-row
+{
+    font-family: Calibri;
+    font-size: 15px; 
+    
+}
+.second-row
+{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 13px; 
+}
+.third-row
+{
+    font-family: Calibri; 
+    font-size: 14px; 
+    color: rgb(42, 42, 187);
+}
+.first-para
+{
+    position: fixed;
+    width: 22%;
+    height: 10%;
+    top: 100px;
+    left: 75px;
+    font-family: Calibri;
+    font-size: 25px;
+    color: rgb(65, 62, 62);
+}
+.second-para
+{
+    position: fixed;
+    width: 22%;
+    height: 10%;
+    top: 185px;
+    left: 75px;
+    font-family: Calibri;
+    font-size: 15px;
+    color: rgb(177, 170, 170);
+}
+.login-form
+{
+    position: fixed;
+    width: 22%;
+    height: 26%;
+    top: 260px;
+    left: 75px; 
+}
+.btn
+{
+    position: fixed;
+    width: 22%;
+    height: 8.5%;
+    top: 470px;
+    left: 75px; 
+    background-color: rgb(42, 42, 187);  
+    border-radius: 10px;
+    text-align: center;
+}  
+.button{
+    background-color: rgb(42, 42, 187);
+    border: none;
+    color: rgb(231, 224, 224);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px;
+    cursor: pointer;
+}
+.footertext{
+    position: fixed;
+    width: 22%;
+    height: 9%;
+    top: 523px;
+    left: 75px; 
+    color: rgb(153, 151, 151); 
+    border-radius: 10px;
+    font-family: Calibri;
+} 
+.footer-text{
+    position: fixed;
+    width: 22%;
+    height: 9%;
+    top: 547px;
+    left: 75px; 
+    color: black; 
+    border-radius: 10px;
+    font-family: Calibri;
+} 
+.login-form .input-email
+{
+    height: 40px;
+    width: 100%;
+    position: relative;
+    border: none;
+    font-family: Bahnschrift ;
+}
+.login-form .input-email input{
+    height: 100%;
+    width: 100%;
+    border:noon;
+    border-bottom: 2px solid silver;
+    font-size: 17px;
+}
+.input-email input:focus ~ label,
+.input-email input:valid ~ label
+{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: rgb(5, 5, 194);
+}
+.login-form .input-email label
+{
+    position: absolute;
+    bottom: 10px;
+    left: 0%;
+    color: gray;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.login-form .input-email .underline
+{
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;   
+}
+.input-email .underline:before
+{
+    position :absolute;
+    content:"";
+    height: 100%;
+    width: 100%;
+    background:#4158d0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.input-email input:focus ~ .underline:before,
+.input-email input:valid ~ .underline:before
+{
+    transform: translateX(1);
+}
+.border
+{
+    border: none;
+    outline: none;
+}
+
+
+.login-form .input-name
+{
+    height: 40px;
+    width: 100%;
+    top: 25px;
+    position: relative;
+    border: none;
+    font-family: Bahnschrift ;
+}
+.login-form .input-name input{
+    height: 100%;
+    width: 100%;
+    border:noon;
+    border-bottom: 2px solid silver;
+    font-size: 17px;
+}
+.input-name input:focus ~ label,
+.input-name input:valid ~ label
+{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: rgb(5, 5, 194);
+}
+.login-form .input-name label
+{
+    position: absolute;
+    bottom: 10px;
+    left: 0%;
+    color: gray;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.login-form .input-name .underline
+{
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;   
+}
+.input-name .underline:before
+{
+    position :absolute;
+    content:"";
+    height: 100%;
+    width: 100%;
+    background:#4158d0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.input-name input:focus ~ .underline:before,
+.input-name input:valid ~ .underline:before
+{
+    transform: translateX(1);
+}
+
+.login-form .input-password
+{
+    height: 40px;
+    width: 100%;
+    top: 50px;
+    position: relative;
+    border: none;
+    font-family: Bahnschrift ;
+}
+.login-form .input-password input{
+    height: 100%;
+    width: 100%;
+    border:noon;
+    border-bottom: 2px solid silver;
+    font-size: 17px;
+}
+.input-password input:focus ~ label,
+.input-password input:valid ~ label
+{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: rgb(5, 5, 194);
+}
+.login-form .input-password label
+{
+    position: absolute;
+    bottom: 10px;
+    left: 0%;
+    color: gray;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.login-form .input-password .underline
+{
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;   
+}
+.input-password .underline:before
+{
+    position :absolute;
+    content:"";
+    height: 100%;
+    width: 100%;
+    background:#4158d0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.input-password input:focus ~ .underline:before,
+.input-password input:valid ~ .underline:before
+{
+    transform: translateX(1);
+}
+
+.number
+{
+    margin: 0px 5px 5px 0px;
+}
+
+.location-icon
+{
+    height: 7%;
+    width: 70%;
+    margin: 20px 20px 10px 20px;
+    font-size: 17px;
+    font-family: Calibri;
+    color: rgb(196, 187, 187);
+}
+.payment
+{
+    font-size: 12px;
+    font-family: Calibri;
+    color: rgb(61, 59, 59);
+    margin-left: 28px;
+    margin-top:30px;
+}
+
+.top-payment .input-payment
+{
+    height: 40px;
+    width: 85%;
+    position: relative;
+    border: none;
+    left:29px;
+    font-family: Bahnschrift ;
+    font-size: 86%;
+}
+.top-payment .input-payment input{
+    height: 79%;
+    width: 100%;
+    border:noon;
+    border-bottom: 2px solid silver;
+    font-size: 17px;
+}
+.input-payment input:focus ~ label,
+.input-payment input:valid ~ label
+{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: rgb(5, 5, 194);
+}
+.top-payment .input-payment label
+{
+    position: absolute;
+    bottom: 10px;
+    left: 0%;
+    color: gray;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.top-payment .input-payment .underline
+{
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;   
+}
+.input-payment .underline:before
+{
+    position :absolute;
+    content:"";
+    height: 100%;
+    width: 100%;
+    background:#4158d0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.input-payment input:focus ~ .underline:before,
+.input-payment input:valid ~ .underline:before
+{
+    transform: translateX(1);
+}
+.border
+{
+    border: none;
+    outline: none;
+}
+.check-textbox {
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 0;
+    height: 14px;
+    border-bottom: 2px solid rgb(165, 162, 162);
+    width: 120px;
+    font-family: Bahnschrift;
+    color: rgb(156, 154, 154);
+    font-size: 14px;
+}
+.expiry{
+    border: 0;
+    outline: 0;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 0;
+    height: 14px;
+    border-bottom: 2px solid rgb(165, 162, 162);
+    width: 80px;
+}
+.cvv
+{
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 0;
+    height: 14px;
+    border-bottom: 2px solid rgb(165, 162, 162);
+    width: 100px;
+}
+.street
+{
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 0;
+    height: 14px;
+    border-bottom: 2px solid rgb(165, 162, 162);
+    width: 155px;
+    font-family: Bahnschrift;
+    color: rgb(156, 154, 154);
+    font-size: 14px;
+}
+.city
+{
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 0;
+    height: 14px;
+    border-bottom: 2px solid rgb(165, 162, 162);
+    width: 160px;
+    font-family: Bahnschrift;
+    color: rgb(156, 154, 154);
+    font-size: 14px;   
+}
+.state
+{
+    border: 0;
+    outline: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 0;
+    height: 14px;
+    border-bottom: 2px solid rgb(165, 162, 162);
+    width: 155px;
+    font-family: Bahnschrift;
+    color: rgb(156, 154, 154);
+    font-size: 14px;   
+}
+.zip
+{
+    border: 0;
+    outline: 0;
+    margin-top: 40px;
+    margin-left: 30px;
+    padding: 0;
+    height: 14px;
+    border-bottom: 2px solid rgb(165, 162, 162);
+    width: 160px;
+    font-family: Bahnschrift;
+    color: rgb(156, 154, 154);
+    font-size: 14px;   
+}
+.check-textbox-group {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-textbox-group .textbox {
+    width: 100%;
+}
+.card__space-75 {
+    width: 50%;
+    float: left;
+    margin: 30px;
+    font-family:  Calibri;
+    font-size: 15px;
+    color: rgb(104, 100, 100);
+}
+
+.card__space-25 {
+    width: 30%; 
+    margin: 10px; 
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btns
+{
+    position: fixed;
+    width: 7%;
+    height: 7%;
+    background-color: rgb(42, 42, 187);  
+    border-radius: 10px;
+}
+
+.date
+{
+    font-family: Calibri;
+    color: rgb(114, 111, 111);
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 20px;
+} 
+.letter
+{
+    font-family: Calibri;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-left: 20px;
+    color: rgb(37, 36, 36);
+}
+.remainder
+{
+    font-family: Calibri;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 20px;
+    color: rgb(138, 135, 135);
+}
+.time
+{
+    font-family: Calibri;
+    font-size: 15px;
+    padding-left: 20px;
+    color: rgb(53, 52, 52);
+}
+.need
+{
+    font-family: Calibri;
+    font-size: 15px;
+    padding-left: 20px;
+    color: rgb(231, 223, 223);
+}
+.once
+{
+    font-family: Calibri;
+    font-size: 15px;
+    padding-left: 20px;
+    color: rgb(190, 184, 184);
+}
+.more
+{
+    font-family: Calibri;
+    font-size: 15px;
+    padding-left: 20px;
+    color: rgb(236, 229, 229);
+}
+.symbols
+{
+    font-size: 15px;
+    padding-left: 20px;
+    color: rgb(252, 237, 237);
+}
+.eight
+{
+    font-size: 35px;
+    padding-left: 5px;
+    color: rgb(252, 237, 237);
+    font-family: Calibri;
+}
